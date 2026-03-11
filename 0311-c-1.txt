@@ -1,0 +1,35 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+
+int day;
+float money;
+char name[20];
+char grade;
+
+printf("여행일수를 입력하세요");
+scanf("%d", &day);
+
+printf("여행경비를 입력하세요");
+scanf("%f", &money);
+
+printf("여행등급을 입력하세요 (A,B,C 중 한 글자");
+scanf(" %c",&grade);
+
+printf("여행지를 입력하세요");
+scanf("%s",name);
+
+printf("여행지 : %s\n", name);
+printf("여행 일수 : %10d일\n", day);
+printf("여행 경비 : %.1f만원\n", money);
+printf("여행 등급 : %c\n", grade);
+
+
+
+
+    // Write C code here
+    printf("Try programiz.pro");
+
+    return 0;
+}
