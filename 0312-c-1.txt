@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+    int main()
+{
+    int score;
+    while(1)
+{
+    printf("수를 입력하세요. ");
+    scanf("%d", &score);
+
+    if(score > 10){ 
+        printf("너무 높아요\n");}
+    else if(score < 10){
+        printf("너무 낮아요\n");}
+    else if(score == 10){
+        printf("정답입니다\n");
+        break;
+    }
+    //else{
+        //printf("");
+    //}
+}
+    return 0;
+}
