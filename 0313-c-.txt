@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int food;
+
+    printf("좋아하는 음식 번호를 선택하세요\n");
+    printf("1:치킨 2:피자 3:떡볶이 4:햄버거\n");
+
+    printf("번호 입력: ");
+    scanf("%d", &food);
+
+    switch(food) {
+        case 1:
+            printf("치킨을 선택했습니다.\n");
+            break;
+
+        case 2:
+            printf("피자를 선택했습니다.\n");
+            break;
+
+        case 3:
+            printf("떡볶이를 선택했습니다.\n");
+            break;
+
+        case 4:
+            printf("햄버거를 선택했습니다.\n");
+            break;
+
+        default:
+            printf("잘못된 번호입니다.\n");
+    }
